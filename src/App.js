@@ -1,6 +1,5 @@
 import "./App.css";
-import HeadLine from "./Headline";
-import { News } from "./Headline";
+import HeadLine, { News } from "./Headline";
 
 function App() {
   return (
