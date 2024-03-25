@@ -8,9 +8,13 @@ const HeadLine = () => {
   );
 };
 
-export const News = () => {
+// export const News = (props) => {
+export const News = ({ title }) => {
   return (
     <>
+      {/* <h4>{props.title}</h4> */}
+      <h4>{title}</h4>
+      <hr />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id illum alias
         ea dolor laudantium fugit eum iure culpa sed iusto!
