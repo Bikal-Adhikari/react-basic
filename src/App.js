@@ -1,15 +1,16 @@
 import "./App.css";
+import HeadLine from "./Headline";
+import { News } from "./Headline";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello there</h1>
-      <hr />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id illum alias
-        ea dolor laudantium fugit eum iure culpa sed iusto!
-      </p>
-    </div>
+    <>
+      <div className="">
+        <HeadLine />
+        <News />
+      </div>
+      <div>sfds</div>
+    </>
   );
 }
 
