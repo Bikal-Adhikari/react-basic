@@ -1,6 +1,7 @@
 import "./App.css";
 import HeadLine, { News } from "./Headline";
 import User from "./User";
+import Counter from "./Counter";
 
 const App = () => {
   const info = "ABC News Paper";
@@ -10,6 +11,7 @@ const App = () => {
   return (
     <>
       <div className="">
+        <Counter />
         <h1>{info}</h1>
         {/* <HeadLine /> */}
         <News title={t1} />
