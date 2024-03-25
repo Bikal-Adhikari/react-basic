@@ -17,7 +17,7 @@ const App = () => {
         <News title={t1} />
         <News title={t2} />
         <News title={t3} />
-        {/* <User /> */}
+        <User />
       </div>
       <div>sfds</div>
     </>

@@ -1,3 +1,5 @@
+import "./user.css";
+
 const User = () => {
   return (
     <>

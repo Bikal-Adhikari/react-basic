@@ -13,9 +13,11 @@ const Counter = () => {
   //     setCounter(counter - 1);
   //   };
 
+  const style = { background: "red", paddingTop: "5rem", textAlign: "center" };
+
   return (
-    <div>
-      <h1>{counter}</h1>
+    <div style={style}>
+      <h1 className="title">{counter}</h1>
       <button onClick={() => setCounter(counter - 1)}>-</button>
       <button onClick={increase}>+</button>
     </div>
