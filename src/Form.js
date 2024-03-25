@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Form = () => {
+  const [str, setStr] = useState("");
   const handleOnChange = (e) => {
-    console.log(e.target.value);
+    setStr(e.target.value);
   };
   return (
     <div>
+      {str}
       <form action="">
         <input type="text" name="name" onChange={handleOnChange} />
         <button>Submit</button>
